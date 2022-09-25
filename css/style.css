@@ -857,7 +857,7 @@ body {
   border-radius: 2px;
   position: absolute;
 }
-.modal__checkbox:checked + .modal__checkbox-icon {
+.modal__checkbox:checked .modal__checkbox-icon {
   visibility: visible;
   background-color: var(--accent-color);
   cursor: pointer;
