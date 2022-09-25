@@ -823,6 +823,7 @@ body {
   cursor: pointer;
 }
 .modal__box {
+  margin-left: 57px;
   position: relative;
   margin-top: 20px;
 }
@@ -850,10 +851,8 @@ body {
   height: 15px;
 }
 .modal__checkbox:checked ~ .modal__checkmark::before {
-  visibility: hidden;
   background-color: var(--accent-color);
   border: none;
-  background-image: url(../images/icons.svg/symbol-defs.svg#icon-check);
   border-radius: 2px;
   position: absolute;
 }
