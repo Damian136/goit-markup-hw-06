@@ -883,8 +883,6 @@ body {
   display: flex;
   justify-content: center;
 }
-.page-footer__icon-send {
-  fill: var(--body-background-color);
-  height: 24px;
-  width: 24px;
+.newsletter-icon {
+  margin-left: 24px;
 }
