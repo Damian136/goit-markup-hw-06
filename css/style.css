@@ -706,3 +706,180 @@ body {
   word-spacing: 46px;
   align-items: center;
 }
+.newsletter-page {
+  margin-left: 78px;
+}
+.newsletter-tittle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--body-background-color);
+  margin: 0;
+}
+.newsletter-style {
+  margin-top: 20px;
+  border: 1px solid #afb1b8;
+  width: 358px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: var(--background-color);
+}
+.newsletter-button {
+  background-color: var(--accent-color);
+  font-family: "Roboto";
+  line-height: 1.87;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  width: 200px;
+  height: 50px;
+}
+.newsletter-button:hover {
+  cursor: pointer;
+  transition: 250ms;
+}
+.modal__form-title {
+  margin-top: 40px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+  padding-bottom: 2px;
+}
+.modal__text-form {
+  margin-left: 40px;
+  margin-top: 12px;
+  display: flex;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: var(--contacts-hder-color);
+  padding-bottom: 4px;
+}
+.modal__form-box {
+  width: 448px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  height: 40px;
+  margin-bottom: 10px;
+  padding-left: 42px;
+}
+.modal__icon-person {
+  fill: #212121;
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  top: 110px;
+  left: 60px;
+}
+.modal__icon-phone {
+  fill: #212121;
+  height: 13px;
+  width: 13px;
+  position: absolute;
+  top: 190px;
+  left: 60px;
+}
+.modal__icon-mail {
+  fill: #212121;
+  height: 12px;
+  width: 15px;
+  position: absolute;
+  top: 270px;
+  left: 60px;
+}
+.modal__textarea {
+  width: 448px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  height: 120px;
+  resize: none;
+  padding: 12px;
+}
+.modal__textarea::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+.modal__checkbox {
+  position: relative;
+  appearance: none;
+  cursor: pointer;
+}
+.modal__box {
+  position: relative;
+  margin-top: 20px;
+}
+.modal__checkbox::before {
+  content: "";
+  opacity: 0;
+  cursor: pointer;
+}
+.modal__checkmark::before {
+  content: "";
+  height: 15px;
+  width: 15px;
+  border: 2px solid black;
+  position: absolute;
+  cursor: pointer;
+  border-radius: 2px;
+  left: 6px;
+  bottom: 5px;
+}
+.modal__checkbox-icon {
+  position: absolute;
+  left: 6px;
+  bottom: 5px;
+  width: 16px;
+  height: 15px;
+}
+.modal__checkbox:checked ~ .modal__checkmark::before {
+  visibility: hidden;
+  background-color: var(--accent-color);
+  border: none;
+  background-image: url(../images/icons.svg/symbol-defs.svg#icon-check);
+  border-radius: 2px;
+  position: absolute;
+}
+.modal__checkbox:checked + .modal__checkbox-icon {
+  visibility: visible;
+  background-color: var(--accent-color);
+  cursor: pointer;
+  border-radius: 2px;
+}
+.modal__checkbox-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin-top: 25px;
+  cursor: default;
+}
+.modal__checkbox-link {
+  color: var(--accent-color);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.modal__button-position {
+  display: flex;
+  justify-content: center;
+}
