@@ -853,6 +853,7 @@ body {
 .modal__checkbox:checked ~ .modal__checkmark::before {
   background-color: var(--accent-color);
   border: none;
+  background-image: url(../Images/Icons/icons.svg#icon-check);
   border-radius: 2px;
   position: absolute;
 }
