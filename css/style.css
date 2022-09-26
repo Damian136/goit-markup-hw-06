@@ -844,6 +844,7 @@ body {
   bottom: 5px;
 }
 .modal__checkbox-icon {
+  color: var(--grey-line-color);
   position: absolute;
   left: 6px;
   bottom: 5px;
