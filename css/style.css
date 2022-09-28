@@ -853,7 +853,7 @@ body {
 .modal__checkbox:checked ~ .modal__checkmark::before {
   background-color: var(--accent-color);
   border: none;
-  background-image: url(../Images/Icons/icons.svg#icon-check);
+  background-image: url(../Images/Icons/icons.svg#icon-send);
   border-radius: 2px;
   position: absolute;
 }
@@ -884,6 +884,8 @@ body {
   justify-content: center;
 }
 .newsletter-icon {
+  background-color: var(--accent-color);
+  background-image: url(../Images/Icons/icons.svg#icon-send);
   width: 24px;
   height: 24px;
   margin-left: 24px;
