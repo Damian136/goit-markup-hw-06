@@ -883,9 +883,7 @@ body {
   display: flex;
   justify-content: center;
 }
-.newsletter-icon {
-  background-color: var(--accent-color);
-  background-image: url(../Images/Icons/icons.svg#icon-send);
+.newsletter-icon:checked {
   width: 24px;
   height: 24px;
   margin-left: 24px;
