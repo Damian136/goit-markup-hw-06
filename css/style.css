@@ -857,11 +857,8 @@ body {
   position: absolute;
 }
 .modal__checkbox:checked + .modal__checkbox-icon {
-  background-color: #2196f3;
-  border: none;
-  transform: translate(-12%, -14%);
-  opacity: 1;
   visibility: visible;
+  background-color: var(--accent-color);
   cursor: pointer;
   border-radius: 2px;
 }
