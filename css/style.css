@@ -833,15 +833,14 @@ body {
   cursor: pointer;
 }
 .modal__checkmark::before {
-  content: "";
-  height: 15px;
-  width: 15px;
-  border: 2px solid black;
-  position: absolute;
-  cursor: pointer;
-  border-radius: 2px;
-  left: 6px;
-  bottom: 5px;
+  position: relative;
+  z-index: 100;
+  width: 17px;
+  height: 16px;
+  border-radius: 3px;
+  transform: translate(-13%, 150%);
+  opacity: 0;
+  fill: #ffffff;
 }
 .modal__checkbox-icon {
   position: absolute;
@@ -858,10 +857,10 @@ body {
   position: absolute;
 }
 .modal__checkbox:checked + .modal__checkbox-icon {
-  visibility: visible;
-  background-color: var(--accent-color);
-  cursor: pointer;
-  border-radius: 2px;
+  background-color: #2196f3;
+  border: none;
+  transform: translate(-12%, -14%);
+  opacity: 1;
 }
 .modal__checkbox-text {
   font-family: "Roboto";
@@ -883,8 +882,8 @@ body {
   display: flex;
   justify-content: center;
 }
-.newsletter-icon:checked {
-  width: 24px;
-  height: 24px;
+.newsletter-icon {
+  width: 10px;
+  height: 10px;
   margin-left: 24px;
 }
