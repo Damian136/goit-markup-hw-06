@@ -823,6 +823,7 @@ body {
   cursor: pointer;
 }
 .modal__box {
+  color: #212121;
   margin-left: 57px;
   position: relative;
   margin-top: 20px;
