@@ -840,7 +840,7 @@ body {
   border-radius: 3px;
   transform: translate(-13%, 150%);
   opacity: 0;
-  fill: #757575;
+  fill: #ececec;
 }
 .modal__checkbox-icon {
   position: absolute;
@@ -851,7 +851,7 @@ body {
 }
 .modal__checkbox:checked ~ .modal__checkmark::before {
   visibility: hidden;
-  background-color: var(--contacts-header-color);
+  background-color: var(--accent-color);
   border: none;
   background-image: url(../Images/Icons/icons.svg#icon-vector);
   border-radius: 2px;
@@ -860,7 +860,6 @@ body {
 .modal__checkbox:checked + .modal__checkbox-icon {
   visibility: visible;
   background-color: var(--accent-color);
-  border-color: var(--contacts-header-color);
   cursor: pointer;
   border-radius: 2px;
 }
