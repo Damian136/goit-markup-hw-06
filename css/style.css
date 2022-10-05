@@ -854,7 +854,7 @@ body {
   background-color: var(--accent-color);
   border: none;
   background-image: url(../Images/Icons/icons.svg#icon-vector);
-  border-radius: 2px;
+  border-radius: 100px;
   position: absolute;
 }
 .modal__checkbox:checked + .modal__checkbox-icon {
@@ -890,5 +890,5 @@ body {
 }
 input:hover + svg,
 input:focus-within + svg {
-  fill: red;
+  fill: #757575;
 }
