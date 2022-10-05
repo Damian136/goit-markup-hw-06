@@ -827,6 +827,10 @@ body {
   position: relative;
   margin-top: 20px;
 }
+.modal__box:hover,
+.modal__box:focus-within {
+  border-color: red;
+}
 .modal__checkbox::before {
   content: "";
   opacity: 0;
