@@ -877,6 +877,9 @@ body {
   color: #757575;
   margin-top: 25px;
   cursor: default;
+  display: block;
+  content: "";
+  border: 1px solid black;
 }
 .modal__checkbox-link {
   color: var(--accent-color);
