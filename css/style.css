@@ -857,6 +857,13 @@ body {
   border-radius: 2px;
   position: absolute;
 }
+.modal__checkbox:checked + .modal__checkbox-icon {
+  visibility: visible;
+  background-color: var(--accent-color);
+  border-color: var(--contacts-header-color);
+  cursor: pointer;
+  border-radius: 2px;
+}
 .modal__checkbox-text {
   font-family: "Roboto";
   font-style: normal;
