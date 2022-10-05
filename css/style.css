@@ -891,4 +891,5 @@ body {
 input:hover + svg,
 input:focus-within + svg {
   fill: #2196f3;
+  border-color: #757575;
 }
