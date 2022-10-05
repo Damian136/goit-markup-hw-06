@@ -888,3 +888,7 @@ body {
   height: 25px;
   margin-left: 24px;
 }
+input:hover + svg,
+input:focus-within + svg {
+  fill: red;
+}
