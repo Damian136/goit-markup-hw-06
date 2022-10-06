@@ -768,14 +768,17 @@ body {
   color: var(--contacts-hder-color);
   padding-bottom: 4px;
 }
-.modal__form-box:hover,
-.modal__form-box:focus-within {
+.modal__form-box {
   width: 448px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   height: 40px;
   margin-bottom: 10px;
   padding-left: 42px;
+}
+.modal__form-box:hover,
+.modal__form-box:focus-within {
+  border: 1px solid var(--accent-color);
 }
 .modal__form-box:hover + svg,
 .modal__form-box:focus-within + svg {
