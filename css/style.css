@@ -768,13 +768,18 @@ body {
   color: var(--contacts-hder-color);
   padding-bottom: 4px;
 }
-.modal__form-box {
+.modal__form-box:hover,
+.modal__form-box:focus-within {
   width: 448px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   height: 40px;
   margin-bottom: 10px;
   padding-left: 42px;
+}
+.modal__form-box:hover + svg,
+.modal__form-box:focus-within + svg {
+  fill: #2196f3;
 }
 .modal__icon-person {
   fill: #212121;
@@ -895,8 +900,4 @@ body {
   width: 25px;
   height: 25px;
   margin-left: 24px;
-}
-.modal__checkbox:hover + .modal__checkbox-icon,
-.modal__checkbox:focus-within + .modal__checkbox-icon {
-  fill: #2196f3;
 }
