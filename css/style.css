@@ -861,12 +861,6 @@ body {
   border-radius: 2px;
   position: absolute;
 }
-.modal__checkbox:checked + .modal__checkbox-icon {
-  visibility: visible;
-  background-color: var(--accent-color);
-  cursor: pointer;
-  border-radius: 2px;
-}
 .modal__checkbox-text {
   font-family: "Roboto";
   font-style: normal;
@@ -897,5 +891,8 @@ body {
 }
 .modal__checkbox:hover + .modal__checkbox-icon,
 .modal__checkbox:focus-within + .modal__checkbox-icon {
-  fill: #2196f3;
+  visibility: visible;
+  background-color: var(--accent-color);
+  cursor: pointer;
+  border-radius: 2px;
 }
