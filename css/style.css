@@ -880,6 +880,7 @@ body {
   background-color: var(--accent-color);
   cursor: pointer;
   border-radius: 2px;
+  border-width: 20px;
 }
 .modal__checkbox-link {
   color: var(--accent-color);
