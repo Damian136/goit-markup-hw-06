@@ -895,3 +895,7 @@ body {
   height: 25px;
   margin-left: 24px;
 }
+.modal__checkbox:hover + .modal__checkbox-icon,
+.modal__checkbox:focus-within + .modal__checkbox-icon {
+  fill: #2196f3;
+}
