@@ -784,6 +784,14 @@ body {
 .modal__form-box:focus-within + svg {
   fill: #2196f3;
 }
+.modal__form-box:hover,
+.modal__form-box:focus-within {
+  border: 1px solid var(--accent-color);
+}
+.modal__form-box:hover + svg,
+.modal__form-box:focus-within + svg {
+  fill: #2196f3;
+}
 .modal__icon-person {
   fill: #212121;
   height: 12px;
@@ -884,6 +892,13 @@ body {
   border-radius: 2px;
   border-width: 20px;
 }
+.modal__checkbox:checked + .modal__checkbox-icon {
+  visibility: visible;
+  background-color: var(--accent-color);
+  cursor: pointer;
+  border-radius: 2px;
+  border-width: 20px;
+}
 .modal__checkbox-link {
   color: var(--accent-color);
   text-decoration: underline;
@@ -898,10 +913,3 @@ body {
   height: 25px;
   margin-left: 24px;
 }
-<<<<<<< HEAD
-input:hover + svg,
-input:focus-within + svg {
-  fill: #2196f3;
-}
-=======
->>>>>>> c855827ff80c8dad39733b629f3fcd5b23a03779
