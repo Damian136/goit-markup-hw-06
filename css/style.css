@@ -834,6 +834,7 @@ body {
   color: rgba(117, 117, 117, 0.5);
 }
 .modal__checkbox {
+  border: 1px solid black;
   position: relative;
   appearance: none;
   cursor: pointer;
