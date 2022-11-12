@@ -776,6 +776,9 @@ body {
   margin-bottom: 10px;
   padding-left: 12px;
 }
+.modal__form-box:hover {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+}
 .modal__form-box:hover,
 .modal__form-box:focus-within {
   border: 1px solid var(--accent-color);
