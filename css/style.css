@@ -850,6 +850,12 @@ input:focus-within + svg {
   opacity: 0;
   cursor: pointer;
 }
+.modal__checkmark {
+  display: block;
+  width: 17px;
+  height: 16px;
+  border: #000000;
+}
 .modal__checkmark::before {
   display: block;
   position: relative;
