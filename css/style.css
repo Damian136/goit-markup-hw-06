@@ -845,6 +845,7 @@ body {
   cursor: pointer;
 }
 .modal__checkmark::before {
+  display: block;
   position: relative;
   z-index: 100;
   width: 17px;
