@@ -843,6 +843,7 @@ input:focus-within + svg {
   margin-left: 57px;
   position: relative;
   margin-top: 20px;
+  color: var(--contacts-header-color)
 }
 .modal__checkbox::before {
   display: block;
