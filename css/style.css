@@ -840,7 +840,7 @@ input:focus-within + svg {
   cursor: pointer;
 }
 .modal__box {
-  margin-left: 57px;
+  padding-left: 40px;
   position: relative;
   margin-top: 20px;
   color: var(--contacts-header-color)
