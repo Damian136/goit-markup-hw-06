@@ -853,35 +853,23 @@ input:focus-within + svg {
   opacity: 0;
   cursor: pointer;
 }
-.modal__checkmark {
-  display: block;
-  width: 17px;
-  height: 16px;
-  border: #000000;
-}
-.modal__checkmark::before {
-  display: block;
-  position: relative;
-  z-index: 100;
-  width: 17px;
-  height: 16px;
-  border-radius: 3px;
-  transform: translate(-13%, 150%);
-  opacity: 0;
-  fill: #ececec;
-}
 .modal__checkbox-icon {
   position: absolute;
   top: 10%;
   right: 97%;
   width: 16px;
   height: 15px;
-  border: 1px solid var(--main-text-color)
+  fill: var(--body-background-color);
 }
-.modal__checkbox:checked ~ .modal__checkmark::after {
+.modal__checkbox-icon {
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
+  border-radius: 2px;
+}
+.modal__checkbox:checked {
   opacity: 1;
 }
-.modal__checkbox:checked ~ .modal__checkmark::before {
+.modal__checkbox:checked {
   visibility: hidden;
   background-color: var(--accent-color);
   border: none;
