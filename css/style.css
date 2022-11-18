@@ -834,15 +834,17 @@ input:focus-within + svg {
   color: rgba(117, 117, 117, 0.5);
 }
 .modal__checkbox {
-  border: 1px solid black;
   position: relative;
-  appearance: none;
-  cursor: pointer;
+  opacity: 0;
 }
 .modal__box {
-  padding-left: 40px;
   position: relative;
+  font-weight: 400;
+  font-size: 14px;
   margin-top: 20px;
+  margin-left: 55px;
+  margin-right: 54px;
+  margin-bottom: 0;
   color: var(--contacts-header-color)
 }
 .modal__checkbox::before {
@@ -870,10 +872,11 @@ input:focus-within + svg {
 }
 .modal__checkbox-icon {
   position: absolute;
-  left: 6px;
-  bottom: 5px;
+  top: 10%;
+  right: 97%;
   width: 16px;
   height: 15px;
+  border: 1px solid var(--main-text-color)
 }
 .modal__checkbox:checked ~ .modal__checkmark::after {
   opacity: 1;
@@ -887,15 +890,10 @@ input:focus-within + svg {
   position: absolute;
 }
 .modal__checkbox-text {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.5em;
   letter-spacing: 0.03em;
-  color: #757575;
-  margin-top: 25px;
-  cursor: default;
 }
 .modal__checkbox:checked + .modal__checkbox-icon {
   visibility: visible;
@@ -913,8 +911,10 @@ input:focus-within + svg {
 }
 .modal__checkbox-link {
   color: var(--accent-color);
-  text-decoration: underline;
-  cursor: pointer;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5em;
+  letter-spacing: 0.03em;
 }
 .modal__button-position {
   display: flex;
