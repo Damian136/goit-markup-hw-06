@@ -13,6 +13,7 @@
   --color-icon: #afb1b8;
   --grey-line-color: #eeeeee;
   --blue-color: rgba(33, 150, 243, 1);
+  --transition-fn: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .img {
   object-fit: cover;
@@ -865,6 +866,8 @@ input:focus-within + svg {
   fill: var(--accent-color);
   border-color: var(--accent-color);
   border-radius: 2px;
+  transition: border-color 250ms var(--transition-fn);
+  transition: fill 250ms var(--transition-fn);
 }
 .modal__checkbox:checked {
   opacity: 1;
@@ -883,14 +886,14 @@ input:focus-within + svg {
   line-height: 1.5em;
   letter-spacing: 0.03em;
 }
-.modal__checkbox:checked + .modal__checkbox-icon {
+.modal__checkbox:checked {
   visibility: visible;
   background-color: var(--accent-color);
   cursor: pointer;
   border-radius: 2px;
   border-width: 20px;
 }
-.modal__checkbox:checked + .modal__checkbox-icon {
+.modal__checkbox:checked {
   visibility: visible;
   background-color: var(--accent-color);
   cursor: pointer;
