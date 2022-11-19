@@ -98,27 +98,29 @@
                           </svg>
                         </label>
                         </div>
-                        <div>
-                        <label>
-                            <span class="modal__text-form">Komentarz</span>
-                            <textarea class="modal__textarea" name="comment" rows="6" placeholder="Wprowadź tekst"></textarea>
+                        <label class="modal__text-form" for="user_comment">Komentarz
+                          <textarea class="modal__textarea id="user_comment" name="comment" placeholder="Wprowadź tekst">
+                          </textarea>
                         </label>
-                        </div>
-                              <label class="modal__box">
-                                <input class="modal__checkbox" type="checkbox" name="statute" value="Oświadczam iż akceptuję Regulamin i Politykę Prywatności."/>
-                                <svg class="modal__checkbox-icon">
-                                  <use href="./Images/Icons/icons.svg#icon-vector"></use>
-                                   </svg>
-                                  <span class="modal__checkbox-text">Oświadczam iż akceptuję 
-                                    <a href class="modal__checkbox-link">Regulamin</a> i 
-                                    <a href class="modal__checkbox-link">Politykę Prywatności</a>.</span>
-                                </label>
+                        <label class="modal__box">
+                          <input
+                            class="modal__checkbox"
+                            type="checkbox"
+                            name="check"
+                            value="check"
+                          />
+                          <svg class="modal__checkbox-icon" width="16" height="15">
+                            <use href="./Images/Icons/icons.svg#icon-vector"></use>
+                          </svg>
+                          <span class="modal__checkbox-text">
+                            Oświadczam iż akceptuję
+                            <a class="modal__checkbox-link" href="#" rel="noreferrer noopener">Regulamin</a>i
+                            <a class="modal__checkbox-link" href="#" rel="noreferrer noopener">Politykę Prywatności.</a>
+                            </span>
+                        </label>
                     <div class="modal__button-position">
                 <button type="submit" class="newsletter-button">Wyślij</button>
                     </div>
-                    </form>
-                     </div>
-                     </div>
             <button
               data-modal-open
               type="button"
