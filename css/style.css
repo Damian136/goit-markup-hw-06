@@ -834,18 +834,13 @@ input:focus-within + svg {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-.modal__checkbox {
-  position: relative;
-  opacity: 0;
+.kwadrat {
+  width: 16px;
+  height: 15px;
 }
 .modal__box {
-  position: relative;
-  font-weight: 400;
-  font-size: 14px;
-  margin-top: 20px;
-  margin-left: 55px;
-  margin-right: 54px;
-  margin-bottom: 0;
+  margin-top: 60px;
+  position: static;
   color: var(--contacts-header-color);
 }
 .modal__checkbox-icon {
