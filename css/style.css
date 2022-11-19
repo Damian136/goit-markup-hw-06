@@ -818,17 +818,21 @@ input:focus-within + svg {
   left: 60px;
 }
 .modal__textarea {
-  resize: none;
-  outline: none;
   width: 448px;
-  height: 138px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  padding: 12px 16px;
+  height: 120px;
+  resize: none;
+  padding: 12px;
 }
-.modal__textarea:focus {
-  border-color: var(--button-backgroundnhover-color);
-  transition: border-color 250ms var(--transition-fn);
+.modal__textarea::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
 }
 .modal__checkbox {
   position: relative;
@@ -911,16 +915,4 @@ input:focus-within + svg {
   width: 25px;
   height: 25px;
   margin-left: 24px;
-}
-.modal__label {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  padding-left: 40px;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 0.875em;
-  letter-spacing: 0.01em;
-  color: var(--contacts-header-color);
 }
