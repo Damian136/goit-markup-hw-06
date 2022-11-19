@@ -853,7 +853,6 @@ input:focus-within + svg {
   top: 10%;
   right: 97%;
   fill: var(--body-background-color);
-  border: 1px solid(--main-text-color);
 }
 input:checked + .modal__checkbox-icon {
   fill: var(--accent-color);
