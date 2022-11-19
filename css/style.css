@@ -848,57 +848,25 @@ input:focus-within + svg {
   margin-bottom: 0;
   color: var(--contacts-header-color);
 }
-.modal__checkbox::before {
-  display: block;
-  content: "";
-  opacity: 0;
-  cursor: pointer;
-}
 .modal__checkbox-icon {
   position: absolute;
   top: 10%;
   right: 97%;
-  width: 16px;
-  height: 15px;
   fill: var(--body-background-color);
+  border: 1px solid(--main-text-color);
 }
-.modal__checkbox-icon {
+input:checked + .modal__checkbox-icon {
   fill: var(--accent-color);
   border-color: var(--accent-color);
   border-radius: 2px;
   transition: border-color 250ms var(--transition-fn);
   transition: fill 250ms var(--transition-fn);
 }
-.modal__checkbox:checked {
-  opacity: 1;
-}
-.modal__checkbox:checked {
-  visibility: hidden;
-  background-color: var(--accent-color);
-  border: none;
-  background-image: url(../Images/Icons/icons.svg#icon-vector);
-  border-radius: 2px;
-  position: absolute;
-}
 .modal__checkbox-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5em;
   letter-spacing: 0.03em;
-}
-.modal__checkbox:checked {
-  visibility: visible;
-  background-color: var(--accent-color);
-  cursor: pointer;
-  border-radius: 2px;
-  border-width: 20px;
-}
-.modal__checkbox:checked {
-  visibility: visible;
-  background-color: var(--accent-color);
-  cursor: pointer;
-  border-radius: 2px;
-  border-width: 20px;
 }
 .modal__checkbox-link {
   color: var(--accent-color);
