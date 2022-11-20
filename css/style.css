@@ -878,3 +878,26 @@ input:checked + .modal__checkbox-icon {
   height: 25px;
   margin-left: 24px;
 }
+.modal-form-policy-text::before {
+  display: inline-block;
+  content: "";
+  width: 16px;
+  height: 16px;
+  border: 1px solid #000;
+  transition: all 250ms var(--transition-fn);
+}
+.modal-form-policy:checked + .modal-form-policy-text::before {
+  background-color: var(--accent-color);
+  border: 3px solid #ffffff;
+  background-image: url(../Images/Icons/icons.svg#icon-vecto);
+}
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
