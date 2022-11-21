@@ -1024,6 +1024,7 @@ input:checked + .modal__checkbox-icon {
   font-size: 12px;
 }
 .insidemodal {
+  display: block;
   width: 11px;
   height: 11px;
   fill: #2196f3;
