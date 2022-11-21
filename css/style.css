@@ -1023,3 +1023,7 @@ input:checked + .modal__checkbox-icon {
   letter-spacing: 0.01em;
   font-size: 12px;
 }
+.insidemodal {
+  width: 11px;
+  height: 11px;
+}
