@@ -657,33 +657,21 @@ body {
   fill: #ffffff;
 }
 .agency {
-  color: #000;
   position: relative;
 }
-.agency:hover {
-  text-decoration: none;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+.agency:after {
+  content: "";
+  position: absolute;
+  width: 53px;
+  height: 4px;
+  background-color: rgba(33, 150, 243, 1);
+  bottom: -33px;
+  left: 0px;
 }
 .link {
   text-decoration: none;
-}
-.active {
-  position: relative;
-  color: #2196f3;
-}
-
-.active::after {
-  content: "";
-  width: 53px;
-  height: 4px;
-  background: var(--accent-color);
-  text-decoration: var(--accent-color);
-  border-radius: 2px;
-  position: absolute;
-  bottom: -31px;
-  text-transform: uppercase;
-  left: 0;
+  color: var(--main-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-links {
   padding-left: 93px;
