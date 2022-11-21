@@ -1023,9 +1023,3 @@ input:checked + .modal__checkbox-icon {
   letter-spacing: 0.01em;
   font-size: 12px;
 }
-.insidemodal {
-  display: block;
-  width: 11px;
-  height: 11px;
-  fill: #2196f3;
-}
