@@ -727,6 +727,11 @@ body {
   border-radius: 4px;
   background-color: var(--background-color);
 }
+.newsletter-icon {
+  width: 24px;
+  height: 24px;
+  padding-left: 24px;
+}
 .newsletter-button {
   background-color: var(--accent-color);
   font-family: "Roboto";
@@ -872,11 +877,6 @@ input:checked + .modal__checkbox-icon {
 .modal__button-position {
   display: flex;
   justify-content: center;
-}
-.newsletter-icon {
-  width: 15px;
-  height: 15px;
-  margin-left: 24px;
 }
 .modal-form-policy-text::before {
   display: inline-block;
