@@ -150,7 +150,7 @@ body {
   padding-bottom: 94px;
 }
 .close-btn {
-  position: absolute;
+  cursor: pointer;
   top: 8px;
   right: 8px;
   width: 30px;
@@ -158,45 +158,36 @@ body {
   border-radius: 50%;
   background-color: var(--body-background-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-}
-.close-btn:focus,
-.close-btn:hover {
-  border-color: var(--accent-color);
-  background: var(--body-background-color);
-  color: var(--accent-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  transition: color 250ms, background 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  position: absolute;
+  top: 8px;
+  right: 8px;
 }
 .backdrop {
   position: fixed;
+  display: flex;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.1);
-}
-.backdrop:focus,
-.backdrop:hover {
-  transition: color 250ms, background 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
+  transform: translatex(-100%);
 }
 .modal {
-  outline: 0;
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 528px;
-  min-height: 581px;
+  height: 581px;
+  pointer-events: painted;
+  flex-direction: column;
   background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .main-buttons {
   background-color: var(--accent-color);
@@ -281,6 +272,8 @@ body {
 }
 .footer-navigation {
   background-color: var(--background-color);
+  width: 1600px;
+  height: 252px;
 }
 .contact {
   font-size: 14px;
