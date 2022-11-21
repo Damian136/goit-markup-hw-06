@@ -151,12 +151,10 @@ body {
 }
 .close-btn {
   cursor: pointer;
-  top: 8px;
-  right: 8px;
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: var(--body-background-color);
+  background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   position: absolute;
   top: 8px;
