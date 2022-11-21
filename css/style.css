@@ -189,6 +189,7 @@ body {
   pointer-events: none;
 }
 .modal {
+  outline: 0;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -777,6 +778,7 @@ body {
 input:hover + svg,
 input:focus-within + svg {
   fill: #2196f3;
+  outline: 0;
 }
 .modal__form-box {
   width: 448px;
@@ -855,6 +857,7 @@ input:focus-within + svg {
   fill: var(--body-background-color);
 }
 input:checked + .modal__checkbox-icon {
+  outline: 0;
   fill: var(--accent-color);
   border-color: var(--accent-color);
   border-radius: 2px;
@@ -877,12 +880,14 @@ input:checked + .modal__checkbox-icon {
 .modal__button-position {
   display: flex;
   justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
 .modal-form-policy-text::before {
   display: inline-block;
   content: "";
   width: 16px;
-  height: 16px;
+  height: 15px;
   border: 1px solid #000;
   transition: all 250ms var(--transition-fn);
 }
