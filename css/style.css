@@ -874,8 +874,8 @@ input:checked + .modal__checkbox-icon {
   justify-content: center;
 }
 .newsletter-icon {
-  width: 24px;
-  height: 24px;
+  width: 15px;
+  height: 15px;
   margin-left: 24px;
 }
 .modal-form-policy-text::before {
