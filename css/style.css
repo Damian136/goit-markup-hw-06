@@ -741,6 +741,7 @@ body {
 }
 .modal__text-form {
   margin-left: 40px;
+  margin-top: 1px;
   display: flex;
   font-family: Roboto;
   font-size: 12px;
