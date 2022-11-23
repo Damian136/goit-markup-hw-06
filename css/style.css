@@ -1017,5 +1017,5 @@ input:checked + .modal__checkbox-icon {
   font-size: 12px;
 }
 .modal-icon {
-  position: absolute;
+  position: relative;
 }
