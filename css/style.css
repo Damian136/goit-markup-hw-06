@@ -796,6 +796,7 @@ input:focus-within + svg {
   left: 60px;
 }
 .modal__icon-mail {
+  fill: #212121;
   height: 12px;
   width: 15px;
   position: absolute;
