@@ -23,7 +23,6 @@ body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: var(--main-text-color);
   margin: auto;
-  width: 1600px;
 }
 .navigation-menu {
   display: flex;
@@ -274,7 +273,6 @@ body {
 }
 .footer-navigation {
   background-color: var(--background-color);
-  width: 1600px; 
   height: 252px;
 }
 .contact {
@@ -1017,4 +1015,7 @@ input:checked + .modal__checkbox-icon {
   line-height: 14px;
   letter-spacing: 0.01em;
   font-size: 12px;
+}
+.modal-icon {
+  position: relative;
 }
