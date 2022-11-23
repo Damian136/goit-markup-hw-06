@@ -162,6 +162,7 @@ input {
   position: absolute;
   top: 8px;
   right: 8px;
+  transition: opacity 250ms ease-in; visibility: 250ms linear;
 }
 .backdrop {
   z-index: 1;
