@@ -24,6 +24,9 @@ body {
   color: var(--main-text-color);
   margin: auto;
 }
+input {
+  outline: none;
+}
 .navigation-menu {
   display: flex;
   list-style: none;
@@ -117,6 +120,7 @@ body {
   transition: 250ms;
 }
 .main-header {
+  max-width: 1600px;
   display: block;
   margin: auto;
   background-image: linear-gradient(to right, #2f303a66 40%, #2f303a66 40%),
