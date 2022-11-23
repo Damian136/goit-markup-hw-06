@@ -795,6 +795,10 @@ input:focus-within + svg {
   top: 174px;
   left: 60px;
 }
+.modal__icon-mail:hover,
+.modal__icon-mail:focus-within {
+  border: 1px solid var(--accent-color);
+}
 .modal__icon-mail {
   height: 12px;
   width: 15px;
