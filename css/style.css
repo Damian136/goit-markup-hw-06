@@ -778,7 +778,7 @@ input:focus-within + svg {
   height: 12px;
   width: 12px;
   position: absolute;
-  top: 105px;
+  top: 103px;
   left: 60px;
 }
 .modal__icon-phone {
