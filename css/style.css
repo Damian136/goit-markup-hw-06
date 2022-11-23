@@ -773,7 +773,7 @@ input:focus-within + svg {
 .modal__form-box:focus-within + svg {
   fill: #2196f3;
 }
-.modal__icon-person {
+.modal__icon {
   fill: #212121;
   height: 12px;
   width: 12px;
