@@ -1014,3 +1014,9 @@ input:checked + .modal__checkbox-icon {
   width: 11px;
   height: 11px;
 }
+.homemade {
+  color: #FFA5BA;
+}
+.passion {
+  color: #D41443;
+}
