@@ -5,7 +5,7 @@
 }
 :root {
   --accent-color: #2196f3;
-  --background-color: #2f303a;
+  --background-color: #FFF5F6;
   --contacts-color: rgba(255, 255, 255, 0.6);
   --contacts-header-color: #757575;
   --body-background-color: #ffffff;
@@ -1014,20 +1014,3 @@ input:checked + .modal__checkbox-icon {
   width: 11px;
   height: 11px;
 }
-<<<<<<< HEAD
-=======
-.photo-list {
-  display: flex;
-  list-style: none;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.name {
-  display: block;
-  margin-bottom: 4px;
-  color: rgba(117, 117, 117, 1);
-  line-height: 14px;
-  letter-spacing: 0.01em;
-  font-size: 12px;
-}
->>>>>>> 5b572827146fb96bd227f0baa82c66d2eb38491c
