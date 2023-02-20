@@ -866,6 +866,9 @@ input:checked + .modal__checkbox-icon {
   margin-top: 30px;
   margin-bottom: 40px;
 }
+.modal__form-title {
+  color: red;
+}
 .modal-form-policy-text::before {
   display: inline-block;
   content: "";
